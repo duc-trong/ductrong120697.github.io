@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QLCuaHangModelStoreContainer" CdmEntityContainer="QLCuaHangEntities1">
+    <EntitySetMapping Name="nhanvien">
+      <EntityTypeMapping TypeName="QLCuaHangModel.nhanvien">
+        <MappingFragment StoreEntitySet="nhanvien">
+          <ScalarProperty Name="manv" ColumnName="manv" />
+          <ScalarProperty Name="tennv" ColumnName="tennv" />
+          <ScalarProperty Name="giotinh" ColumnName="giotinh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sanpham">
+      <EntityTypeMapping TypeName="QLCuaHangModel.sanpham">
+        <MappingFragment StoreEntitySet="sanpham">
+          <ScalarProperty Name="masp" ColumnName="masp" />
+          <ScalarProperty Name="tensp" ColumnName="tensp" />
+          <ScalarProperty Name="giaban" ColumnName="giaban" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
